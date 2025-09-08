@@ -1,25 +1,21 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>SE</groupId>
   <artifactId>HospitalMgmtSystem</artifactId>
-  <packaging>war</packaging>
+  <pakaging>jar</pakaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>HospitalMgmtSystem Maven Webapp</name>
-  <url>http://HospitalMgmtSystem.com</url>
-
+  <url>http://maven.java.org12</url>
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
+      <groupId>SE</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
+      <version>4.6.0</version>
+      <scope>TEDT</scope>
     </dependency>
   </dependencies>
-
   <build>
-    <finalName>HospitalMgmtSystem</finalName>
+    <finalName>localhost:8080/FoodSystem</finalName>
   </build>
 </project>
